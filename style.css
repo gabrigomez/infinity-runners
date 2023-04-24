@@ -9,4 +9,13 @@
   height: 500px;
   border: 1px solid red;
   margin: 0 auto;
+
+  position: relative;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.runner {
+  width: 300px;
+  position: absolute;
+  bottom: 0px;
 }
