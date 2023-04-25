@@ -11,6 +11,7 @@
   margin: 0 auto;
 
   position: relative;
+  overflow: hidden;
   background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
 
@@ -18,4 +19,11 @@
   width: 300px;
   position: absolute;
   bottom: 0px;
+}
+
+.barrier {
+  position: absolute;
+  bottom: -50px;
+  width: 280px;
+  right: 0;
 }
