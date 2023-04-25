@@ -25,5 +25,16 @@
   position: absolute;
   bottom: -50px;
   width: 280px;
-  right: 0;
+  
+  animation: barrier-animation 5s infinite linear;
+}
+
+@keyframes barrier-animation {
+  from {
+    right: -650px;
+  }
+
+  to {
+    right: 100%;
+  }
 }
