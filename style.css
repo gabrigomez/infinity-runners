@@ -41,6 +41,10 @@
   animation: barrier-animation 2s infinite linear;
 }
 
+.jump {
+  animation: jump 600ms ease-out;
+}
+
 @keyframes barrier-animation {
   from {
     right: -650px;
@@ -59,4 +63,28 @@
   to {   
     right: 620px;
   }
+}
+
+@keyframes jump {
+  
+  0% {
+    bottom: 0;
+  }
+
+  40% {
+    bottom: 230px;
+  }
+
+  50% {
+    bottom: 230px;
+  }
+
+  60% {
+    bottom: 230px;
+  }
+
+  100% {
+    bottom: 0;
+  }
+
 }
