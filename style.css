@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.city {
+  width: 100%;
+  position: absolute;
+  bottom: -40px;
+}
+
 .game-canvas {
   width: 760px;
   height: 530px;
@@ -12,9 +18,7 @@
 
   position: relative;
   overflow: hidden;
-  /* background: linear-gradient(to right, #0f0c29, #302b63, #24243e); */
-  background-image: url('./assets/background.gif');
-    
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
 
 .runner {
