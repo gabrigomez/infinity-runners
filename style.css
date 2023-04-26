@@ -5,9 +5,14 @@
 }
 
 .city {
-  width: 100%;
+  width: 1730px;
+  height: 830px;
   position: absolute;
-  bottom: -40px;
+  bottom: -160px;
+  animation: city-animation 5s infinite linear;
+
+  background: url('./assets/city.png');
+  background-repeat: repeat-x; 
 }
 
 .game-canvas {
@@ -18,6 +23,7 @@
 
   position: relative;
   overflow: hidden;
+  
   background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
 
@@ -32,7 +38,7 @@
   bottom: -50px;
   width: 280px;
   
-  animation: barrier-animation 5s infinite linear;
+  animation: barrier-animation 2s infinite linear;
 }
 
 @keyframes barrier-animation {
@@ -42,5 +48,15 @@
 
   to {
     right: 100%;
+  }
+}
+
+@keyframes city-animation {
+  from {    
+    right: -1730px;
+  }
+
+  to {   
+    right: 620px;
   }
 }
