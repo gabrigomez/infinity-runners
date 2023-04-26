@@ -36,7 +36,7 @@
 .barrier {
   position: absolute;
   bottom: -50px;
-  width: 280px;
+  width: 250px;
   
   animation: barrier-animation 2s infinite linear;
 }

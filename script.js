@@ -1,5 +1,4 @@
 const runner = document.querySelector('.runner');
-console.log(runner)
 
 const jump = () => {
   runner.classList.add('jump');
