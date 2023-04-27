@@ -1,5 +1,6 @@
 const runner = document.querySelector('.runner');
 const barrier = document.querySelector('.barrier');
+const city = document.querySelector('.city');
 
 const jump = () => {
   runner.classList.add('jump');
@@ -16,10 +17,11 @@ const loop = setInterval(() => {
 
   
   if(barrierPosition <= 140 && barrierPosition > 0 && runnerPosition <= 170 ) {
+    city.style.animation = 'none';
 
-    barrier.style.animation = 'none'
-    barrier.style.left = `${barrierPosition}px`
+    barrier.style.animation = 'none';
+    barrier.style.left = `${barrierPosition}px`;
   }
-}, 10)
+}, 10);
 
 document.addEventListener('keydown', jump);
