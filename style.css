@@ -22,15 +22,27 @@
   transition: background-color 3s;  
 }
 
+.game-over {
+  align-self: center;
+  position: absolute;
+  font-size: 100px;
+  opacity: 0;
+
+  margin-top: 60px;
+  transition: opacity 2s linear;
+}
+
 .game-canvas {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;  
+  
   width: 760px;
   height: 530px;
   border: 1px solid red;
   margin: 0 auto;
 
-  position: relative;
-  overflow: hidden;
-  
   background: linear-gradient(to top, #2c3e50, #fd746c);
 }
 
