@@ -19,7 +19,7 @@ const getScore = setInterval(() => {
   score = score +1;
   scoreElement.innerHTML = score;
 
-  if (gameOverMode) {
+  if(gameOverMode) {
     clearInterval(getScore);
   }
 }, 200);
