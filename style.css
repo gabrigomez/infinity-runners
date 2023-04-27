@@ -47,9 +47,19 @@
 }
 
 .runner {
-  width: 300px;
+  width: 280px;
   position: absolute;
   bottom: -40px;
+}
+
+.score {
+  align-self: center;
+  position: absolute;
+  font-size: 30px;
+  margin-top: 5px;
+
+  color: aliceblue;
+  z-index: 1;
 }
 
 .barrier {
