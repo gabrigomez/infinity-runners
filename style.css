@@ -30,14 +30,13 @@
 .runner {
   width: 300px;
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
 }
 
 .barrier {
   position: absolute;
   bottom: -50px;
   width: 250px;
-  
   animation: barrier-animation 2s infinite linear;
 }
 
