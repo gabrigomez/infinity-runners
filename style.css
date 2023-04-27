@@ -15,6 +15,13 @@
   background-repeat: repeat-x; 
 }
 
+.city-over {
+  background-color: red;
+  width: 760px;
+  height: 530px;
+  transition: background-color 3s;  
+}
+
 .game-canvas {
   width: 760px;
   height: 530px;
