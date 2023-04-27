@@ -30,7 +30,7 @@
 .runner {
   width: 300px;
   position: absolute;
-  bottom: 0;
+  bottom: -40px;
 }
 
 .barrier {

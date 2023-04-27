@@ -16,11 +16,13 @@ const loop = setInterval(() => {
   const runnerPosition = +window.getComputedStyle(runner).bottom.replace('px', '');
 
   
-  if(barrierPosition <= 140 && barrierPosition > 0 && runnerPosition <= 170 ) {
+  if(barrierPosition <= 120 && barrierPosition > 0 && runnerPosition <= 190 ) {
     city.style.animation = 'none';
-    
+
     runner.src = './assets/dead.gif';
     runner.style.marginLeft = '35px';
+    runner.style.bottom = '-70px';
+    runner.style.animation = 'none';
 
     barrier.style.animation = 'none';
     barrier.style.left = `${barrierPosition}px`;
