@@ -18,9 +18,14 @@ const loop = setInterval(() => {
   
   if(barrierPosition <= 140 && barrierPosition > 0 && runnerPosition <= 170 ) {
     city.style.animation = 'none';
+    
+    runner.src = './assets/dead.gif';
+    runner.style.marginLeft = '35px';
 
     barrier.style.animation = 'none';
     barrier.style.left = `${barrierPosition}px`;
+
+    clearInterval(loop);
   }
 }, 10);
 
